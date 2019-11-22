@@ -35,7 +35,7 @@ defmodule GPOClient.Mixfile do
   defp deps do
     [
       {:ex_doc,      "~> 0.14", only: :dev, runtime: false},
-      {:quinn,       "~> 1.0.2"},
+      {:quinn,       "~> 1.1.3"},
       {:httpoison,   "~> 0.11.2"}
     ]
   end
